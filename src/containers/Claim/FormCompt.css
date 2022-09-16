@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap");
+
+.title-padding {
+    
+}
+
+.title-padding h3 {
+  color: #e91515;
+  font-family: "Oswald", sans-serif;
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  text-align: center;
+}
+
+.form-input {
+  padding: 10px;
+  background-color: #2B2C33;
+}
+
+.form-input:not(active){
+    background-color: #2B2C33;
+    color: white;
+ }
+
+ .form-input:focus{
+    background-color:#2B2C33;
+    color: white;
+ }
+
+.button-submit {
+    background: linear-gradient(
+      92.23deg,
+      rgba(177, 210, 111, 0.8) 0%,
+      #60e7ce 117.04%
+    );
+    border: 2px solid #54e6d4;
+    box-shadow: 0px 4px 97px rgba(255, 86, 246, 0.51);
+    backdrop-filter: blur(192px);
+    border-radius: 10px;
+    font-size: 14px;
+  }
+
+  /* // Extra small devices (portrait phones, less than 576px) */
+  @media (max-width: 575.98px) {
+    .title-padding {
+ 
+    }
+    
+    .title-padding h3 {
+      color: #e91515;
+      font-family: "Oswald", sans-serif;
+      font-family: Oswald;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 30px;
+      text-align: center;
+    }
+  }
+  
+  /* // Small devices (landscape phones, 576px and up) */
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .title-padding {
+ 
+    }
+    
+    .title-padding h3 {
+      color: #e91515;
+      font-family: "Oswald", sans-serif;
+      font-family: Oswald;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 30px;
+      text-align: center;
+    }
+  }
+  
+  /* // Medium devices (tablets, 768px and up) */
+  /* @media (min-width: 768px) and (max-width: 991.98px) { ... } */
+  
+  /* // Large devices (desktops, 992px and up) */
+  /* @media (min-width: 992px) and (max-width: 1199.98px) { ... } */
+  
+  /* // Extra large devices (large desktops, 1200px and up) */
+  /* @media (min-width: 1200px) { ... } */

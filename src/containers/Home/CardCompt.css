@@ -1,0 +1,89 @@
+.card-compt {
+  width: 22rem;
+  border-radius: 30px;
+  padding: 10px;
+  background-color: #2b2c33;
+}
+
+.card-img {
+  width: 80%;
+  height: 250px;
+  display: block;
+  margin: auto;
+}
+
+.title-card {
+  font-family: "Oswald", sans-serif;
+  color: white;
+  font-size: 24px;
+}
+
+.button-explore {
+  background: linear-gradient(
+    92.23deg,
+    rgba(177, 210, 111, 0.8) 0%,
+    #60e7ce 117.04%
+  );
+  border: 2px solid #54e6d4;
+  box-shadow: 0px 4px 97px rgba(255, 86, 246, 0.51);
+  backdrop-filter: blur(192px);
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+.information {
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  text-align: center;
+  font-size: small;
+}
+
+.information-button {
+  margin: 0;
+  background: linear-gradient(
+    92.23deg,
+    rgba(177, 210, 111, 0.8) 0%,
+    #60e7ce 117.04%
+  );
+  border: 2px solid #54e6d4;
+  box-shadow: 0px 4px 97px rgba(255, 86, 246, 0.51);
+  backdrop-filter: blur(192px);
+  border-radius: 20px;
+  font-size: 10px;
+}
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .sp-padding{
+        padding: 20px;
+    }
+  .card-compt {
+    width: 20rem;
+    border-radius: 30px;
+    padding: 10px;
+    background-color: #2b2c33;
+  }
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    .sp-padding{
+        padding: 20px;
+    }
+  .card-compt {
+    width: 20rem;
+    border-radius: 30px;
+    padding: 10px;
+    background-color: #2b2c33;
+  }
+}
+
+/* // Medium devices (tablets, less than 992px) */
+/* @media (max-width: 991.98px) { ... } */
+
+/* // Large devices (desktops, less than 1200px) */
+/* @media (max-width: 1199.98px) { ... } */
+
+/* // Extra large devices (large desktops) */
+/* // No media query since the extra-large breakpoint has no upper bound on its width */

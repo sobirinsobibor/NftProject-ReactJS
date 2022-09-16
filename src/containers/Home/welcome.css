@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Georama:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap");
+
+.title-welcome {
+  font-family: "Georama", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  color: white;
+}
+
+.p-welcome {
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  color: #e06767;
+  text-align: justify;
+}
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .sp-padding {
+        padding: 30px;
+    }
+
+    .title-welcome {
+        margin-top: 12px;
+        font-family: "Georama", sans-serif;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 30px;
+      }
+
+    .p-welcome {
+        font-family: "Oswald", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        color: #e06767;
+        text-align: justify;
+      }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .sp-padding {
+        padding: 30px;
+    }
+
+    .title-welcome {
+        margin-top: 20px;
+        font-family: "Georama", sans-serif;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 30px;
+      }
+
+    .p-welcome {
+        font-family: "Oswald", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size:25px;
+        color: #e06767;
+        text-align: justify;
+      }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .title-welcome {
+        margin-top: 20px;
+        font-family: "Georama", sans-serif;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 36px;
+      }
+}
+
+/* // Large devices (desktops, 992px and up) */
+/* @media (min-width: 992px) and (max-width: 1199.98px) { ... } */
+
+/* // Extra large devices (large desktops, 1200px and up) */
+/* @media (min-width: 1200px) { ... } */

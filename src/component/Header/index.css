@@ -1,0 +1,21 @@
+/* title font */
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:wght@500&display=swap");
+
+.background-dark {
+  background-color: black;
+}
+
+.font {
+  color: white;
+}
+
+.font:hover {
+  color: gray;
+}
+
+.titleIKP {
+  font-family: "Urbanist", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+}
